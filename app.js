@@ -54,11 +54,12 @@ window.addEventListener('DOMContentLoaded', () => {
       }
     })
     lostArray.push(robotCoords)
+    console.log(lostArray)
 
     const compassLetter = Object.keys(facing)[startingDirection]
     robotCoords.push(compassLetter)
 
-    return compassDirection.innerHTML = robotCoords.join(' ')
+    return compassDirection.innerHTML = lostArray
   }
 
   submit.addEventListener('click', handleSubmit)
