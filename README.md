@@ -11,6 +11,7 @@ I decided to do the challenge in vanilla JS. First of all I found HTML elements 
     const facing = { N: 0, E: 1, S: 2, W: 3 }
     let startingDirection = facing[direction]
 ```
+* The time limit
 
 ## Wins 
 * I was really pleased with the code below which, if the robot starts facing North and moves L it faces W
