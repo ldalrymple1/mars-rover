@@ -1,0 +1,11 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 35px;
+  text-decoration: underline;
+  text-align: center;
+}
